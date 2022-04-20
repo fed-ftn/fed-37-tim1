@@ -1,3 +1,18 @@
-
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container table {
+  text-align: left;
+  width: 1000px;
+}
+.container table tr {
+  height: 50px;
+}
+.container table thead {
+  background-color: lightblue;
+}
 
 /*# sourceMappingURL=sass.css.map */
